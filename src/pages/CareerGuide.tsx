@@ -35,7 +35,7 @@ const CareerGuide = () => {
           
           {credentials.length > 0 && (
             <div className="mb-10 animate-fade-in">
-              <CredentialStats credentials={credentials} />
+              {/* <CredentialStats credentials={credentials} /> */}
             </div>
           )}
           
@@ -54,7 +54,7 @@ const CareerGuide = () => {
       
       {/* Toaster component for notifications */}
       <Toaster 
-        position="top-right"
+        position="top-center"
         toastOptions={{
           duration: 4000,
           className: "animate-enter"
