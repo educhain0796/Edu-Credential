@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useOCID } from "@/context/OCIDContext";
 import { useTheme } from "@/context/ThemeContext";
 import { Link } from "react-router-dom";
-import { Shield, LogOut, Moon, Sun, Upload, LayoutDashboard, Droplet } from "lucide-react";
+import { Shield, LogOut, Moon, Sun, Upload, LayoutDashboard, Droplet, Compass, BookTextIcon, ShieldCheck, ShieldCheckIcon } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -27,7 +27,7 @@ const Navbar = () => {
             <Shield className="h-6 w-6 text-educhain-blue" />
             <span className="text-xl font-semibold text-educhain-blue">EduChain Wallet</span>
           </Link>
-          
+
           <div className="ml-8 hidden md:block">
             <NavigationMenu>
               <NavigationMenuList>
@@ -56,6 +56,14 @@ const Navbar = () => {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
+                  <Link to="/career">
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <Compass className="mr-2 h-4 w-4" />
+                      Career Wizard
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
                   <NavigationMenuTrigger>More</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid w-[200px] gap-3 p-4">
@@ -64,22 +72,22 @@ const Navbar = () => {
                           <NavigationMenuLink className={cn(
                             "flex w-full select-none flex-col rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                           )}>
-                            <div className="text-sm font-medium leading-none">About</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              About EduChain Wallet
-                            </p>
+                            <div className="flex items-center">
+                              <BookTextIcon className="mr-2 h-4 w-4" />
+                              <div className="text-sm font-medium leading-none">About</div>
+                            </div>
                           </NavigationMenuLink>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/support">
+                      <Link to="/support">
                           <NavigationMenuLink className={cn(
                             "flex w-full select-none flex-col rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                           )}>
-                            <div className="text-sm font-medium leading-none">Support</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                              Get help with EduChain Wallet
-                            </p>
+                            <div className="flex items-center">
+                              <ShieldCheckIcon className="mr-2 h-4 w-4" />
+                              <div className="text-sm font-medium leading-none">Support</div>
+                            </div>
                           </NavigationMenuLink>
                         </Link>
                       </li>
@@ -90,7 +98,7 @@ const Navbar = () => {
             </NavigationMenu>
           </div>
         </div>
-        
+
         <div className="flex items-center gap-4">
           <Button
             variant="ghost"
@@ -106,7 +114,7 @@ const Navbar = () => {
             )}
             <span className="sr-only">Toggle theme</span>
           </Button>
-          
+
           {isAuthenticated ? (
             <>
               <Link to="/dashboard">
@@ -118,8 +126,8 @@ const Navbar = () => {
               </Button>
             </>
           ) : (
-            <Button 
-              className="bg-educhain-accent hover:bg-educhain-blue text-white" 
+            <Button
+              className="bg-educhain-accent hover:bg-educhain-blue text-white"
               onClick={login}
             >
               OCID Connect
