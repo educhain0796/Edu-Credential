@@ -101,10 +101,10 @@ const Navbar = () => {
 
         <div className="flex items-center gap-4">
           <Button
-            variant="ghost"
+            variant="default"
             size="icon"
             onClick={toggleTheme}
-            className="rounded-full opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity"
+            className="rounded-full opacity-60 hover:opacity-100 focus:opacity-80 transition-opacity"
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? (

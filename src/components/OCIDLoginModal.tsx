@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -40,10 +39,10 @@ const OCIDLoginModal = ({ isOpen, onClose }: OCIDLoginModalProps) => {
           <p className="text-sm text-center text-muted-foreground mb-6">
             Sign in securely using OCID to access and manage your educational credentials on the blockchain.
           </p>
-          <Button 
+          <Button
             onClick={handleLogin}
             disabled={isLoggingIn}
-            className="bg-educhain-accent hover:bg-educhain-blue w-full py-6"
+            className="bg-educhain-accent hover:bg-educhain-blue hover:text-white w-full py-6 text-black"
           >
             {isLoggingIn ? (
               <>

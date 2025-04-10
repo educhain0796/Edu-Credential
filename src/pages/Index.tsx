@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -13,11 +12,11 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <OCIDLoginModal 
-        isOpen={isLoginModalOpen} 
-        onClose={() => setIsLoginModalOpen(false)} 
+      <OCIDLoginModal
+        isOpen={isLoginModalOpen}
+        onClose={() => setIsLoginModalOpen(false)}
       />
-      
+
       {/* Hero Section */}
       <section className="py-16 lg:py-24 bg-gradient-to-b from-background to-muted/30">
         <div className="educhain-container">
@@ -35,8 +34,8 @@ const Index = () => {
                     Upload Your First Credential
                   </Button>
                 </Link>
-                <Button 
-                  variant="outline" 
+                <Button
+                  variant="outline"
                   className="text-lg py-6 px-8 rounded-full"
                   onClick={() => setIsLoginModalOpen(true)}
                 >
@@ -45,16 +44,16 @@ const Index = () => {
               </div>
             </div>
             <div className="lg:w-1/2 flex justify-center">
-              <img 
-                src="/placeholder.svg" 
-                alt="EduChain Wallet" 
+              <img
+                src="/placeholder.svg"
+                alt="EduChain Wallet"
                 className="w-full max-w-md object-contain"
               />
             </div>
           </div>
         </div>
       </section>
-      
+
       {/* How It Works Section */}
       <section className="py-16 bg-background">
         <div className="educhain-container">
@@ -64,7 +63,7 @@ const Index = () => {
               Three simple steps to secure and showcase your educational achievements
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Step 1 */}
             <div className="bg-muted/50 rounded-xl p-8 text-center">
@@ -76,7 +75,7 @@ const Index = () => {
                 Drag & drop your certificates for verification.
               </p>
             </div>
-            
+
             {/* Step 2 */}
             <div className="bg-muted/50 rounded-xl p-8 text-center">
               <div className="bg-educhain-blue/10 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
@@ -87,7 +86,7 @@ const Index = () => {
                 Our AI system detects fraud in seconds, ensuring the authenticity of your credentials.
               </p>
             </div>
-            
+
             {/* Step 3 */}
             <div className="bg-muted/50 rounded-xl p-8 text-center">
               <div className="bg-educhain-blue/10 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
@@ -101,7 +100,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       {/* CTA Section */}
       <section className="py-16 bg-educhain-blue text-white">
         <div className="educhain-container text-center">
@@ -115,9 +114,9 @@ const Index = () => {
                 Get Started
               </Button>
             </Link>
-            <Button 
-              variant="outline" 
-              className="text-white border-white hover:bg-educhain-blue/80 text-lg py-6 px-8 rounded-full"
+            <Button
+              variant="outline"
+              className="bg-educhain-blue text-white hover:bg-educhain-blue/80 text-lg py-6 px-8 rounded-full"
               onClick={() => setIsLoginModalOpen(true)}
             >
               Connect with OCID
@@ -125,7 +124,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );
