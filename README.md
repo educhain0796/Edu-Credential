@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
+# 🌱 CareerChain
 
-## Project info
+CareerChain is your decentralized career passport.  
+Turn your learning, skills, and experience into verifiable on-chain assets.  
+No more fake resumes. No more lost certificates. Just truth, ownership, and rewards. 💼🔗
 
-**URL**: https://lovable.dev/projects/ba1814b3-9831-4d28-8101-2b1a82999603
+📄 Smart Contract Address:  
+`0x25cfe5d4855dc3051e3d6ff9347ba20f88c1baa0`
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🤔 The Problem
 
-**Use Lovable**
+- 📜 Paper resumes lie  
+- 🎓 Certificates get lost or ignored  
+- 🤖 Career advice is often generic and unhelpful  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ba1814b3-9831-4d28-8101-2b1a82999603) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Our Fix
 
-**Use your preferred IDE**
+- 🔗 Blockchain Resume – Your skills live on-chain (no fakes!)  
+- 🧠 AI Career GPS – “Learn React → +$20k salary” (based on real data)  
+- 🎨 Skill NFTs – Turn certificates into collectible tokens  
+- 💸 Earn Tokens – Get paid for leveling up your skills  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🌟 Why CareerChain Rocks
 
-Follow these steps:
+- 🐝 Like LinkedIn + Duolingo + Crypto — but YOU own it all  
+- ⚡ No more “trust me, I know Python” — prove it on-chain  
+- 💡 AI that actually understands your career trajectory and makes custom suggestions  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧩 How It Works
 
-# Step 3: Install the necessary dependencies.
-npm i
+1️⃣ Connect your certificates (Google, Coursera, Udemy, etc.)  
+2️⃣ Mint them as Skill NFTs on-chain 🪙  
+3️⃣ AI shows you personalized growth paths & salary boosts 💎  
+4️⃣ Complete new skills → Earn tokens 🏆  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🧠 Real-World Example
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+> “CareerChain saw my Python NFT and said:  
+> ‘Learn AWS → 40% more job offers’  
+> I did → got a raise. All verifiable.” 🚀
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠 Tech Stack
 
-## What technologies are used for this project?
+| Layer         | Tech / Tools |
+|---------------|--------------|
+| 🌐 Frontend    | React.js + Next.js + TailwindCSS |
+| 🔐 Auth        | MetaMask + Social Login |
+| 💾 Backend     | Node.js + Express + MongoDB |
+| 🧠 AI Engine   | Python + LangChain + OpenAI |
+| ⚙️ Blockchain  | Solidity Smart Contracts deployed on EduChain |
+| 📦 NFT Infra   | ERC-721 Tokenization for Skills |
+| 🛠 Tools       | Hardhat, Ethers.js, Pinata/IPFS |
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌍 The Vision
 
-## How can I deploy this project?
+A future where your career grows like a crypto portfolio —  
+transparent, decentralized, provable, and completely yours.
 
-Simply open [Lovable](https://lovable.dev/projects/ba1814b3-9831-4d28-8101-2b1a82999603) and click on Share -> Publish.
+🌟 Own your career.  
+🔗 Join CareerChain.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📬 Contact: team@careerchain.xyz  
+🧪 Powered by EduChain + OCID
