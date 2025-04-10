@@ -1,6 +1,6 @@
-# 🌱 CareerChain
+# 🌱 EduCRED
 
-CareerChain is your decentralized career passport.  
+EduCRED is your decentralized career passport.  
 Turn your learning, skills, and experience into verifiable on-chain assets.  
 No more fake resumes. No more lost certificates. Just truth, ownership, and rewards. 💼🔗
 
@@ -26,7 +26,7 @@ No more fake resumes. No more lost certificates. Just truth, ownership, and rewa
 
 ---
 
-## 🌟 Why CareerChain Rocks
+## 🌟 Why EduCRED Rocks
 
 - 🐝 Like LinkedIn + Duolingo + Crypto — but YOU own it all  
 - ⚡ No more “trust me, I know Python” — prove it on-chain  
@@ -45,7 +45,7 @@ No more fake resumes. No more lost certificates. Just truth, ownership, and rewa
 
 ## 🧠 Real-World Example
 
-> “CareerChain saw my Python NFT and said:  
+> “EduCRED saw my Python NFT and said:  
 > ‘Learn AWS → 40% more job offers’  
 > I did → got a raise. All verifiable.” 🚀
 
@@ -71,9 +71,9 @@ A future where your career grows like a crypto portfolio —
 transparent, decentralized, provable, and completely yours.
 
 🌟 Own your career.  
-🔗 Join CareerChain.
+🔗 Join EduCRED.
 
 ---
 
-📬 Contact: team@careerchain.xyz  
+📬 Contact: team@EduCRED.xyz  
 🧪 Powered by EduChain + OCID
